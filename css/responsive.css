@@ -1,0 +1,294 @@
+@media (max-width: 575.90px) {
+    .top_header .parallax_one,
+    .special_area .parallax_two,
+    .menu_area .parallax_three,
+    .reserve_area .parallax_four,
+    .event_area .parallax_five {
+        height: 450px;
+    }
+
+    /* ====================== About Area ==================== */
+
+    .reserve_area .section_heading h1,
+    .menu_area .section_heading h1,
+    .special_area .section_heading h1,
+    .about_us .about_content h1 {
+        font-size: 70px;
+    }
+
+    .reserve_area .section_heading h2,
+    .menu_area .section_heading h2,
+    .special_area .section_heading h2,
+    .about_us .about_content h2 {
+        top: -42px;
+        font-size: 38px;
+    }
+
+    /* ===================== special area ================== */
+
+    .special_content .special_items .img {
+        width: 100%;
+    }
+
+    .special_content .special_items .text {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .special_content .row .mirror{
+        transform: scale(1,-1);
+        -webkit-transform: scale(1,-1);
+        -moz-transform: scale(1,-1);
+        -ms-transform: scale(1,-1);
+        -o-transform: scale(1,-1);
+    }
+
+    .special_content .mirror img{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+
+    .special_content .row .mirror .text{
+        transform: rotateX(180deg);
+        -webkit-transform: rotateX(180deg);
+        -moz-transform: rotateX(180deg);
+        -ms-transform: rotateX(180deg);
+        -o-transform: rotateX(180deg);
+}
+    
+
+    /* ====================== Menu Area ==================== */
+
+    .menu_area .menu_content {
+        margin-bottom: 0px;
+    }
+
+    .menu_area .menu_content li{
+        text-align: center;
+    }
+
+    .menu_area .menu_item {
+        display: inline-block;
+        margin-bottom: 35px;
+    }
+
+    .menu_item .menu_img img {
+        margin-left: 35%;
+        transform: translateX(-50%);
+    }
+
+    .menu_item .text {
+        text-align: center;
+    }
+
+    .menu_item .price {
+        top: 82%;
+        right: 46%;
+        transform: translateX(50%);
+    }
+
+    /* ====================== Reserve Area =================== */
+    .reserve_area .reserve_content {
+        bottom: 160px;
+    }
+
+    .reserve_form .form_group {
+        padding: 0px 25px;
+    }
+
+    .reserve_area .submit_btn {
+        padding: 0 75px;
+    }
+
+    .reserve_form .submit_btn button {
+        margin-bottom: 0px;
+    }
+
+    /* ====================== Chat Area =================== */
+
+    .chat_area .form_area {
+        margin-top: 25px;
+    }
+
+    /* ======================== Footer Area ==================== */
+
+    .footer_area .time_details .col-lg-4{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 767.90px) {
+
+    .top_header .banner_content h1 {
+        font-size: 75px;
+    }
+
+    .top_header .banner_content h2{
+        font-size: 40px;
+        top: -45px;
+    }
+
+    .top_header .banner_content p{
+        font-size: 14px;
+    }
+
+    /* ======================== Footer Area ==================== */
+
+    .footer_area .time_details .col-lg-4{
+        margin-right: 20px;
+    }
+
+}
+
+@media(max-width: 991.90px) {
+
+    /* =================== top header ==================== */
+    .top_header .navbar {
+        padding: 20px 0;
+    }
+    
+    .top_header .navbar-toggler-icon i{
+        color: #fff;
+    }
+
+    .top_header .navbar-brand.logo {
+        top: -10px;
+    }
+
+    #mynav ul{
+        text-align: center;
+        margin-top: 20px;
+        background-color: rgba(0,0,0,0.6);
+    }
+    #mynav ul li {
+        padding: 5px 0;
+    }
+
+    /* =================== About us ==================== */
+    .about_us {
+        margin: 2px 0 50px 0;
+    }
+
+    .about_content .about_btn a {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    /* =================== Event Area ================= */
+    .event_items .event_detail {
+        margin-bottom: 25px;
+    }
+
+    .event_area .event_items {
+        padding-bottom: 10px;
+    }
+
+    /* =================== Chat Area ================= */
+    .chat_area {
+        margin: 70px 0;
+    }
+
+    /* ================== Footer Area ================== */
+    .footer_area {
+        padding: 50px 0;
+    }
+
+    .footer_area .col-lg-6:nth-child(1){
+        padding: 30px 20px;
+    }
+
+    .footer_area .mr_left,
+    .footer_area .time_details{
+        margin-left: 12px;
+    }
+
+    /* ================== Footer Bottom ================== */
+
+    .footer_bottom .footer_text {
+        margin: 0 15px 15px 20px;
+    }
+
+    .footer_bottom .social_icon{
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.90px) {
+    .top_header .parallax_one {
+        height: 540px;
+    }
+
+    /* ========================== reserve area ========================= */
+    .reserve_area .submit_btn {
+        padding: 0 60px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 991.90px){
+    .special_area .special_items{
+        display: flex;
+    }
+
+/* ========================== Special area ========================= */
+
+    .special_area .sm_mirror{
+        transform: scale(-1,1);
+    }
+            
+    .special_area .sm_mirror .img{
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+            
+    .special_area .sm_mirror .text{
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);        
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.90px) {
+    .special_content .special_items img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* ========================== Special area ========================= */
+
+    .special_content .special_items .text {
+        padding-top: 100px;
+    }
+
+    /* ========================== reserve area ========================= */
+
+    .reserve_area .reserve_form{
+        padding: 0 100px;
+    }
+
+    .reserve_area .submit_btn {
+        padding: 0 100px;
+    }
+
+    /* ========================== reserve area ========================= */
+
+    .chat_area .form_area{
+        padding: 0 60px;
+    }
+
+}
+
+
+/* 
+@media (min-width: ) and (max-width: ) {}
+ */
